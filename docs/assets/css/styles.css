@@ -3,8 +3,8 @@
     --primary: #3600E7;
     --border: #6783FF;
     --secondary: #8CB8FF;
-    --accent1: #B6F4FF;
-    --accent2: #FACFAD;
+    --accent1: #8DEEFF;
+    --accent2: #FFA890;
     --white: #FFFEF6;
   }
 
@@ -12,6 +12,8 @@
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
   }
+
+  /* text formatting */
   
   body {
     padding: 20px;
@@ -27,6 +29,25 @@
 
   .centered-text {
     text-align: center;
+  }
+
+  /* link formatting */
+  a:link {
+    color: var(--secondary);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: var(--accent1);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--accent2);
+    background-color: transparent;
+    text-decoration: underline;
   }
   
   /* Blog Header */
@@ -86,8 +107,15 @@
     margin-top: 5px;
   }
 
-  .card-body-emph {
+  .card-body-font {
     font-family: 'Courier New', Courier, monospace;
+    color: var(--black);
+    font-size: smaller;
+  }
+
+  .card-body-font-emph {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
     color: var(--black);
     font-size: smaller;
     text-align: center;
