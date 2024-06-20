@@ -3,17 +3,27 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | prepend:site.baseurl }}">
-    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/sidney-blog/assets/css/styles.css">
+    <title>Home</title>
   </head>
   <body>
-    {% include navbar.html %}
+    <nav>
+    
+        <a href="/sidney-blog/" style="color: red;">
+            Home
+        </a>
+    
+        <a href="/sidney-blog/about.html" >
+            About
+        </a>
+    
+</nav>
     <p> teething noises </p>
     <div class="header">
       <h2>Blog Name</h2>
     </div>
 
-    <div><a href="{{ '/assets/css/styles.css' | prepend:site.baseurl }}">
+    <div><a href="/sidney-blog/assets/css/styles.css">
       testing link to css
   </a></div>
 
@@ -33,7 +43,15 @@
         </div>
       </div>
       <div class="rightcolumn">
-        {{ content }}
+        <ul>
+  
+    <li>
+      <h2><a href="/sidney-blog/2024/06/19/sample-post.html">Sample Post</a></h2>
+      <p>testing <em>content</em></p>
+
+    </li>
+  
+</ul>
         <div class="card">
           <h2>About Me</h2>
           <div class="fakeimg" style="height:100px;">Image</div>

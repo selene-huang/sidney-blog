@@ -9,7 +9,7 @@ Watcher Headquarters, Room 706
 
 I am Sidney Stockton, an investigator working for Counselor Tuhorn of Rats and a member of the Watchers in Wait. I am a part of the chrono-biological research division for the Watchers as well as the Watchtower’s Ecological Integrity Maintenance Corps (EIMC).
 
-My research interests include all species endemic, endangered, and extinct. This requires both extensive archive knowledge and time travel-adjacent field work, so I’m not often in my office, and you will usually have better luck contacting me via email. You are also welcome to drop by the chrono-biological division’s Tuesday lab meetings, which are open to public attendance on the first Tuesday of every month. I would especially love to meet with you if you are also working in field biology, or have special archive access.
+My research interests include all species endemic, endangered, and extinct. This requires both extensive archive knowledge and time travel-adjacent field work, so I’m not often in my office, and you will usually have better luck contacting me via email. You are also welcome to drop by the chrono-biological division’s Tuesday lab meetings, which are open to public attendance on the first Tuesday of every month. I would especially love to meet with you if you are also working in field biology or have special archive access.
 
 Current focuses:
 
