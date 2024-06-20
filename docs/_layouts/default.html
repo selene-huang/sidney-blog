@@ -8,30 +8,46 @@
   </head>
   <body>
     {% include navbar.html %}
-    <p> teething noises </p>
     <div class="header">
       <h2>Blog Name</h2>
     </div>
 
-    <div><a href="{{ '/assets/css/styles.css' | prepend:site.baseurl }}">
-      testing link to css
-  </a></div>
-
     <div class="row">
       <div class="leftcolumn">
-        <div class="card">
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Dec 7, 2017</h5>
-          <div class="fakeimg" style="height:200px;">Image</div>
-          <p>Some text..</p>
+        <div class="sidebar-card">
+          <div class="card-header">
+            <div class="row">
+              <div class="card-header-left"><h3>WELCOME</h3></div>
+              <div class="card-header-icon"><h3 class="card-header-icon-font">⏱</h3></div>
+              <div class="card-header-icon"><h3 class="card-header-icon-font">🎕</h3></div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <p class="card-body-emph"><i>Sidney Stockton's personal research blog.</i></p>
+              <p class="card-body-emph"><i><b>Contact:</b> sstockton@thewatch.xxx</i></p>
+            </div>
+          </div>
         </div>
-        <div class="card">
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Sep 2, 2017</h5>
-          <div class="fakeimg" style="height:200px;">Image</div>
-          <p>Some text..</p>
+
+        <div class="row">
+          <a href="{{ '/disclaimer' | prepend:site.baseurl }}">
+            <div class="card-button-left">
+              <div class="sidebar-card">
+                <h3 class="centered-text">DISCLAIMER</h3>
+              </div>
+            </div>
+          </a>
+          <a href="https://socialself.com/blog/stop-being-pretentious/">
+            <div class="card-button-right">
+              <div class="sidebar-card">
+                <h3 class="centered-text">FOR STUART</h3>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
+        
       <div class="rightcolumn">
         {{ content }}
         <div class="card">
