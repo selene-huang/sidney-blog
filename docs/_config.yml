@@ -1,16 +1,15 @@
-title: "Sidney's Blog"
-description: "Research notes & other miscelleanous thoughts"
-timezone: UTC
+# title: "Sidney's Blog"
+# description: "Research notes & other miscelleanous thoughts"
+# timezone: UTC
 
 baseurl: "/sidney-blog"
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "post"
+#   - scope:
+#       path: ""
+#     values:
+#       layout: "default"
