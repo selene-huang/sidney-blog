@@ -1,8 +1,8 @@
-title: Sidney's Blog
-description: Research notes & other miscelleanous thoughts
+title: "Sidney's Blog"
+description: "Research notes & other miscelleanous thoughts"
 timezone: UTC
 
-baseurl: https://selene-huang.github.io/sidney-blog/
+baseurl: "/sidney-blog"
 
 defaults:
   - scope:
