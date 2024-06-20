@@ -3,6 +3,7 @@
 # timezone: UTC
 
 baseurl: "/sidney-blog"
+url: "https://selene-huang.github.io"
 # defaults:
 #   - scope:
 #       path: ""
