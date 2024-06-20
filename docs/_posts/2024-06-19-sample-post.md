@@ -1,5 +1,6 @@
 ---
+layout: default
 title: Sample Post
 ---
 
-<h1>{{ "Hello World!" | downcase }}</h1>
+testing _content_
