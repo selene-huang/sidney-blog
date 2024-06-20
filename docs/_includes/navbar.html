@@ -1,6 +1,6 @@
 <nav>
     {% for item in site.data.navbar %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+        <a href="{{ item.link | prepend:site.baseurl }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
             {{ item.name }}
         </a>
     {% endfor %}
