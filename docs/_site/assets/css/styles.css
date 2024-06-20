@@ -3,171 +3,179 @@
     --primary: #3600E7;
     --border: #6783FF;
     --secondary: #8CB8FF;
-    --accent1: #8DEEFF;
+    --accent1: #25DEFF;
     --accent2: #FFA890;
     --white: #FFFEF6;
-  }
+}
 
 * {
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
-  }
+}
 
-  /* text formatting */
-  
-  body {
+/* text formatting */
+
+body {
     padding: 20px;
     background: var(--black);
-  }
+}
 
-  h3 {
-    font-family: 'Courier New', Courier, monospace;
+h3 {
+    font-family: 'Courier New', Courier, monospace !important;
     font-size: medium;
-    color: var(--primary);
+    color: var(--border);
     margin: 0;
-  }
+}
 
-  .centered-text {
+.centered-text {
     text-align: center;
-  }
+}
 
-  /* link formatting */
-  a:link {
+.primary-text {
+    color: var(--primary);
+}
+
+/* link formatting */
+a:link {
     color: var(--secondary);
     background-color: transparent;
     text-decoration: none;
-  }
-  
-  a:visited {
+}
+
+a:visited {
     color: var(--accent1);
     background-color: transparent;
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     color: var(--accent2);
     background-color: transparent;
     text-decoration: underline;
-  }
-  
-  /* Blog Header */
-  .header {
+}
+
+/* Blog Header */
+.header {
     padding: 30px;
     font-size: 40px;
     text-align: center;
     background: white;
-  }
-  
-  /* Create two unequal columns that floats next to each other */
-  /* Left column */
-  .leftcolumn {
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
     float: left;
     width: 25%;
-  }
-  
-  /* Right column */
-  .rightcolumn {
+}
+
+/* Right column */
+.rightcolumn {
     float: left;
     width: 74%;
     padding-left: 50px;
-  }
-  
-  /* Fake image */
-  .fakeimg {
+}
+
+/* Fake image */
+.fakeimg {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
-  }
-  
-  /* Card Effects */
-  .card {
+}
+
+/* Card Effects */
+.card {
     background-color: var(--white);
     border: 1px solid var(--border);
-    padding: 5px;
+    padding: 20px;
     margin-top: 20px;
     box-shadow: 10px 10px 0px var(--secondary);
     flex-direction: column;
-  }
+}
 
-  .sidebar-card {
+.sidebar-card {
     background-color: var(--white);
     border: 1px solid var(--border);
     padding: 5px;
     margin-top: 20px;
     box-shadow: 5px 5px 0px var(--secondary);
     flex-direction: column;
-  }
+}
 
-  .card-header {
+.card-header {
     padding: 5px;
     border: 1px solid var(--border);
-  }
+}
 
-  .card-body {
+.sidebar-card-body {
     margin-top: 5px;
-  }
+}
 
-  .card-body-font {
+.card-body {
+    padding: 0px 7px;
+}
+
+.card-body-font {
     font-family: 'Courier New', Courier, monospace;
     color: var(--black);
     font-size: smaller;
-  }
+}
 
-  .card-body-font-emph {
+.card-body-font-emph {
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     color: var(--black);
     font-size: smaller;
     text-align: center;
-  }
+}
 
-  .card-header-left {
+.card-header-left {
     float: left;
     padding: 3px;
     padding-top: 4px;
-  }
-  
-  .card-header-icon {
+}
+
+.card-header-icon {
     float: right;
     border: 1px solid var(--border);
     margin-left: 5px;
     padding: 0px 4px;
-  }
+}
 
-  .card-header-icon-font {
+.card-header-icon-font {
     color: var(--border);
-  }
+}
 
-  .card-button-left {
+.card-button-left {
     float: left;
     width: 50%;
-  }
+}
 
-  .card-button-right {
+.card-button-right {
     float: left;
     width: 50%;
     padding-left: 10px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+/* Clear floats after the columns */
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Footer */
-  .footer {
+}
+
+/* Footer */
+.footer {
     padding: 20px;
     text-align: center;
     background: #ddd;
     margin-top: 20px;
-  }
-  
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {
-      width: 100%;
-      padding: 0;
+        width: 100%;
+        padding: 0;
     }
-  }
+}

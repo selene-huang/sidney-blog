@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | prepend:site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
     <title>{{ page.title }}</title>
   </head>
   <body>
@@ -17,12 +17,12 @@
         <div class="sidebar-card">
           <div class="card-header">
             <div class="row">
-              <div class="card-header-left"><h3>WELCOME</h3></div>
+              <div class="card-header-left"><h3 class="primary-text">WELCOME</h3></div>
               <div class="card-header-icon"><h3 class="card-header-icon-font">⏱</h3></div>
               <div class="card-header-icon"><h3 class="card-header-icon-font">🎕</h3></div>
             </div>
           </div>
-          <div class="card-body">
+          <div class="sidebar-card-body">
             <div class="card-header">
               <p class="card-body-font-emph">Sidney Stockton's personal research blog.</p>
               <p class="card-body-font-emph"><b>Contact:</b> sstockton@thewatch.xxx</p>
@@ -31,7 +31,7 @@
         </div>
 
         <div class="row">
-          <a href="{{ '/disclaimer' | prepend:site.baseurl }}">
+          <a href="{{ '/disclaimer' | relative_url }}">
             <div class="card-button-left">
               <div class="sidebar-card">
                 <h3 class="centered-text">DISCLAIMER</h3>
@@ -54,12 +54,12 @@
               <div class="card-header-icon"><h3 class="card-header-icon-font">❀</h3></div>
             </div>
           </div>
-          <div class="card-body">
+          <div class="sidebar-card-body">
             <ul class="card-body-font">
-              <li><a href="{{ '/index/lab-meeting-notes' | prepend:site.baseurl }}">Lab Meeting Notes</a></li>
-              <li><a href="{{ '/index/field-notes' | prepend:site.baseurl }}">Field Notes</a></li>
-              <li><a href="{{ '/index/watchtower-wildlife' | prepend:site.baseurl }}">Watchtower Wildlife</a></li>
-              <li><a href="{{ '/index/weekly-writeup' | prepend:site.baseurl }}">Weekly Writeups</a></li>
+              <li><a href="{{ '/index/lab-meeting-notes' | relative_url }}">Lab Meeting Notes</a></li>
+              <li><a href="{{ '/index/field-notes' | relative_url }}">Field Notes</a></li>
+              <li><a href="{{ '/index/watchtower-wildlife' | relative_url }}">Watchtower Wildlife</a></li>
+              <li><a href="{{ '/index/weekly-writeup' | relative_url }}">Weekly Writeups</a></li>
             </ul>
           </div>
         </div>
@@ -67,21 +67,6 @@
         
       <div class="rightcolumn">
         {{ content }}
-        <div class="card">
-          <h2>About Me</h2>
-          <div class="fakeimg" style="height:100px;">Image</div>
-          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-        </div>
-        <div class="card">
-          <h3>Popular Post</h3>
-          <div class="fakeimg">Image</div><br>
-          <div class="fakeimg">Image</div><br>
-          <div class="fakeimg">Image</div>
-        </div>
-        <div class="card">
-          <h3>Follow Me</h3>
-          <p>Some text..</p>
-        </div>
       </div>
     </div>
     

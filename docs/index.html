@@ -2,11 +2,20 @@
 layout: default
 title: Home
 ---
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+  <div class="card">
+    <div class="card-header">
+      <div class="row">
+        <div class="card-header-left"><h3>{{ post.title | upcase }}</h3></div>
+        <div class="card-header-icon"><a href="{{ post.url | relative_url }}"><h3 class="card-header-icon-font">✮</h3></a></div>
+      </div>
+    </div>
+    
+    <div class="card-body">
+      <p>{{ post.excerpt }}</p>
+      {% if post.excerpt != post.content %}
+      <p><a href="{{ post.url | relative_url }}">>>> Read More</a></p>
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}

@@ -1,7 +1,19 @@
-<nav>
-    {% for item in site.data.navbar %}
-        <a href="{{ item.link | prepend:site.baseurl }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
-            {{ item.name }}
-        </a>
-    {% endfor %}
-</nav>
+<link rel="stylesheet" href="{{ '/assets/css/navbar.css' | relative_url }}">
+<div class="righttab">
+    <ul class="nav-tabs" role="tablist">
+        {% for item in site.data.navbar %}
+            <li class="nav-item" *ngIf="rmView || patientsCase || expertView">
+                <a class="nav-link" data-toggle="tab" href="{{ item.link | relative_url }}" role="tab"
+                    {% if page.url == item.link %}
+                    style="color: red;"
+                    {% endif %}
+                >
+                    <span class="slanted-text">{{ item.name }}</span>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+<div class="banner">
+    testing text
+</div>

@@ -6,5 +6,6 @@ References & Further Reading:
 
 - Jekyll blog tutorials: [[1]](https://www.creativebloq.com/how-to/jekyll-blog) [[2]](https://jekyllrb.com/docs/step-by-step/01-setup/)
 - [Blog styling tutorial](https://www.w3schools.com/howto/howto_css_blog_layout.asp) & [inspiration](https://glenthemes.tumblr.com/post/182588716009/theme-06-determination-by-glenthemes-this-theme)
+- [Navbar tabs code source](https://codepen.io/mahakeerthi/pen/YVrajJ)
 - [Linking URLs correctly](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/)
 - [Morgana's Watchtower Notes](https://vivianwilde.github.io/watchtower-blog/)

@@ -1,8 +1,17 @@
 ---
 layout: default
-author: Sidney Stockton
 ---
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+        <div class="card-header-left"><h3>{{ page.date | date_to_string }}</h3></div>
+        <div class="card-header-icon"><a href="{{ '/' | relative_url }}"><h3 class="card-header-icon-font">🏚️</h3></a></div>
+        </div>
+    </div>
 
-{{ content }}
+    <div class="card-body">
+        <h2>{{ page.title | upcase }}</h2>
+
+        {{ content }}
+    </div>
+</div>

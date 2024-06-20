@@ -7,17 +7,33 @@
     <title>About</title>
   </head>
   <body>
-    <nav>
-    
-        <a href="/sidney-blog/" >
-            Home
-        </a>
-    
-        <a href="/sidney-blog/about.html" style="color: red;">
-            About
-        </a>
-    
-</nav>
+    <link rel="stylesheet" href="/sidney-blog/assets/css/navbar.css">
+<div class="righttab">
+    <ul class="nav-tabs" role="tablist">
+        
+            <li class="nav-item" *ngIf="rmView || patientsCase || expertView">
+                <a class="nav-link" data-toggle="tab" href="/sidney-blog/" role="tab"
+                    
+                >
+                    <span class="slanted-text">Home</span>
+                </a>
+            </li>
+        
+            <li class="nav-item" *ngIf="rmView || patientsCase || expertView">
+                <a class="nav-link" data-toggle="tab" href="/sidney-blog/about.html" role="tab"
+                    
+                    style="color: red;"
+                    
+                >
+                    <span class="slanted-text">About</span>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+<div class="banner">
+    testing text
+</div>
     <div class="header">
       <h2>Blog Name</h2>
     </div>
@@ -27,12 +43,12 @@
         <div class="sidebar-card">
           <div class="card-header">
             <div class="row">
-              <div class="card-header-left"><h3>WELCOME</h3></div>
+              <div class="card-header-left"><h3 class="primary-text">WELCOME</h3></div>
               <div class="card-header-icon"><h3 class="card-header-icon-font">⏱</h3></div>
               <div class="card-header-icon"><h3 class="card-header-icon-font">🎕</h3></div>
             </div>
           </div>
-          <div class="card-body">
+          <div class="sidebar-card-body">
             <div class="card-header">
               <p class="card-body-font-emph">Sidney Stockton's personal research blog.</p>
               <p class="card-body-font-emph"><b>Contact:</b> sstockton@thewatch.xxx</p>
@@ -64,7 +80,7 @@
               <div class="card-header-icon"><h3 class="card-header-icon-font">❀</h3></div>
             </div>
           </div>
-          <div class="card-body">
+          <div class="sidebar-card-body">
             <ul class="card-body-font">
               <li><a href="/sidney-blog/index/lab-meeting-notes">Lab Meeting Notes</a></li>
               <li><a href="/sidney-blog/index/field-notes">Field Notes</a></li>
@@ -76,6 +92,10 @@
       </div>
         
       <div class="rightcolumn">
+        <div class="card">
+    <div class="card-body">
+        <h2>ABOUT</h2>
+
         <p>sstockton@thewatch.xxx</p>
 
 <p>Watcher Headquarters, Room 706</p>
@@ -97,21 +117,8 @@
 
 <p>Obligatory disclaimer: this is my personal blog and is not officially affiliated with the Watch nor the Watchers. All research and notes found here are my personal opinions and are not representative of any organizational stance on any of these topics. Finally, while I am happy to answer questions or further elaborate on any concepts or topics found here, do keep in mind I am only at liberty to discuss projects that have been approved for release to the general public. Please go through official channels to request information on classified research.</p>
 
-        <div class="card">
-          <h2>About Me</h2>
-          <div class="fakeimg" style="height:100px;">Image</div>
-          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-        </div>
-        <div class="card">
-          <h3>Popular Post</h3>
-          <div class="fakeimg">Image</div><br>
-          <div class="fakeimg">Image</div><br>
-          <div class="fakeimg">Image</div>
-        </div>
-        <div class="card">
-          <h3>Follow Me</h3>
-          <p>Some text..</p>
-        </div>
+    </div>
+</div>
       </div>
     </div>
     
