@@ -4,5 +4,5 @@ This is a blog written for [the Watch](https://docs.google.com/presentation/d/1h
 
 References & Further Reading:
 
-- [Building a blog with GitHub Pages](https://thinhdanggroup.github.io/github-blog/)
+- Jekyll blog tutorials: [[1]](https://www.creativebloq.com/how-to/jekyll-blog) [[2]](https://jekyllrb.com/docs/step-by-step/01-setup/)
 - [Morgana's Watchtower Notes](https://vivianwilde.github.io/watchtower-blog/)

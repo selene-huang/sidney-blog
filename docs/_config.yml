@@ -1,0 +1,14 @@
+title: Sidney's Blog
+description: Research notes & other miscelleanous thoughts
+timezone: UTC
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
