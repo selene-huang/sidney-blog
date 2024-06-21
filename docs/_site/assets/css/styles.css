@@ -1,5 +1,6 @@
 :root {
     --black: #22222D;
+    --light-gray: #8A8AB1;
     --primary: #3600E7;
     --border: #6783FF;
     --secondary: #8CB8FF;
@@ -42,6 +43,14 @@ h3 {
 
 .primary-text {
     color: var(--primary);
+}
+
+.gray-text {
+    color: var(--light-gray);
+}
+
+.white-text {
+    color: var(--white) !important;
 }
 
 /* link formatting */
@@ -178,10 +187,10 @@ a:hover {
 
 /* Footer */
 .footer {
-    padding: 20px;
+    padding: 5px;
     text-align: center;
-    background: #ddd;
     margin-top: 20px;
+    margin-bottom: -25px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */

@@ -1,9 +1,14 @@
-# title: "Sidney's Blog"
-# description: "Research notes & other miscelleanous thoughts"
-# timezone: UTC
+title: "Sidney's Research Blog"
+description: "Research notes & other miscelleanous thoughts"
+
+plugins: [jekyll-paginate]
 
 baseurl: "/sidney-blog"
 url: "https://selene-huang.github.io"
+
+paginate: 5
+paginate_path: "/:num/"
+comments: true
 
 collections:
   index:

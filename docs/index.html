@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   <div class="card">
     <div class="card-header">
       <div class="row">
@@ -21,3 +21,22 @@ title: Home
     </div>
   </div>
 {% endfor %}
+
+<!-- Pagination links -->
+<div class="card centered-text">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">
+      &lt;&lt; Prev
+    </a>
+  {% else %}
+    <span class="gray-text">&lt;&lt; Prev</span>
+  {% endif %}
+  <span>
+    ⦾ Page {{ paginator.page }} of {{ paginator.total_pages }} ⦾
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Next &gt;&gt;</a>
+  {% else %}
+    <span class="gray-text">Next &gt;&gt;</span>
+  {% endif %}
+</div>
