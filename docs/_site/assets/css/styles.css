@@ -103,6 +103,10 @@ a:hover {
     flex-direction: column;
 }
 
+.card-button-left > .sidebar-card:hover, .card-button-right > .sidebar-card:hover {
+    background-color: var(--accent);
+}
+
 .card-header {
     padding: 5px;
     border: 1px solid var(--border);
@@ -164,16 +168,6 @@ a:hover {
     width: 50%;
     padding-left: 10px;
 }
-
-.selectable {
-    background: red;
-}
-
-.selectable > a:hover {
-    width: 100%;
-    background: green;
-}
-
 
 /* Clear floats after the columns */
 .row:after {
