@@ -8,9 +8,6 @@
   </head>
   <body>
     {% include navbar.html %}
-    <div class="header">
-      <h2>Blog Name</h2>
-    </div>
 
     <div class="row">
       <div class="leftcolumn">
@@ -55,11 +52,11 @@
             </div>
           </div>
           <div class="sidebar-card-body">
-            <ul class="card-body-font">
-              <li><a href="{{ '/index/lab-meeting-notes' | relative_url }}">Lab Meeting Notes</a></li>
-              <li><a href="{{ '/index/field-notes' | relative_url }}">Field Notes</a></li>
-              <li><a href="{{ '/index/watchtower-wildlife' | relative_url }}">Watchtower Wildlife</a></li>
-              <li><a href="{{ '/index/weekly-writeup' | relative_url }}">Weekly Writeups</a></li>
+            <ul>
+              <li><a href="{{ '/index/lab-meeting-notes' | relative_url }}" class="card-body-font">Lab Meeting Notes</a></li>
+              <li><a href="{{ '/index/field-notes' | relative_url }}" class="card-body-font">Field Notes</a></li>
+              <li><a href="{{ '/index/watchtower-wildlife' | relative_url }}" class="card-body-font">Watchtower Wildlife</a></li>
+              <li><a href="{{ '/index/weekly-writeup' | relative_url }}" class="card-body-font">Weekly Writeups</a></li>
             </ul>
           </div>
         </div>

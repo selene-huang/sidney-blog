@@ -3,9 +3,12 @@
     <ul class="nav-tabs" role="tablist">
         {% for item in site.data.navbar %}
             <li class="nav-item" *ngIf="rmView || patientsCase || expertView">
-                <a class="nav-link" data-toggle="tab" href="{{ item.link | relative_url }}" role="tab"
+                <a 
+                    data-toggle="tab" href="{{ item.link | relative_url }}" role="tab"
                     {% if page.url == item.link %}
-                    style="color: red;"
+                    class="curr-nav-link"
+                    {% else %}
+                    class="nav-link"
                     {% endif %}
                 >
                     <span class="slanted-text">{{ item.name }}</span>
@@ -15,5 +18,7 @@
     </ul>
 </div>
 <div class="banner">
-    testing text
+    <div class="inner-banner">
+        ❧ SIDNEY'S RESEARCH BLOG ☙
+    </div>
 </div>

@@ -1,21 +1,35 @@
 :root {
     --black: #22222D;
+    --gray: #4B4B6F;
     --primary: #3600E7;
     --border: #6783FF;
     --secondary: #8CB8FF;
-    --accent1: #25DEFF;
-    --accent2: #FFA890;
+    --accent: #FFA890;
     --white: #FFFEF6;
 }
 
 .righttab {
     padding: 0px;
     margin: 0px;
-    background: red;
+    margin-left: -20px;
 }
 
 .banner {
-    background: green;
+    margin-top: -16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: var(--white);
+    box-shadow: 10px 10px 0px var(--secondary);
+}
+
+.inner-banner {
+    border: 1px solid var(--secondary);
+    padding: 50px 30px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    color: var(--secondary);
 }
 
 .nav-tabs > ul {
@@ -29,28 +43,27 @@
     display: inline-block;
     margin: 0 0px;
 }
-.nav-tabs .nav-link{
-    border: 1px solid #03a0ed;
-    border-radius: 0px;
+
+.nav-tabs .nav-link {
+    border: 1px solid var(--secondary);
+    background: var(--gray);
+    border-bottom: 0px;
+    color: var(--secondary);
+}
+
+.curr-nav-link {
+    border: 1px solid var(--primary);
+    border-bottom: 0px;
 }
 
 .nav-tabs > li a {
-    background: #fff;
-    color: #03a0ed;
+    background: var(--white);
+    color: var(--primary);
     display: block;
     line-height: 1;
     padding: 5px 15px;
     position: relative;
     text-decoration: none;
-}
-
-.nav-tabs > li a:before, li a:after {
-    content: '';
-    height: 0;
-    position: absolute;
-    right: 100%;
-    top: 0;
-    width: 0;
 }
 
 .nav-tabs > li a:before {
@@ -66,31 +79,31 @@
 }
 
 .nav-tabs > li a:hover, li a:focus {
-    background: #03a0ed;
-    color: #fff
+    background: var(--accent);
+    color: var(--white);
 }
 
 .nav-tabs > li a:hover:before, li a:hover:after, li a:focus:before, li a:focus:after {
-    border-color: #03a0ed;
+    border-color: var(--accent);
 }
 
 .nav-tabs > li a.active {
-    background: #03a0ed;
+    background: var(--accent);
+    color: var(--white);
     cursor: pointer;
-    color: #fff;
 }
 
 .nav-tabs > li a.active:before, li a.active:after {
-    border-color: #03a0ed;
-    color:#fff;
+    background: var(--accent);
+    color: var(--white);
 }
 
-.nav-tabs > li a{
+.nav-tabs > li a {
     transform: skewX(-25deg);
     display: inline-block;
 }
 
-.slanted-text{
+.slanted-text {
     transform: skewX(27deg);
     display: inline-block;
 }
