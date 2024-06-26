@@ -28,7 +28,7 @@ Next, Marissa’s presentation:
   - Stressed the need for more research
   - If it turns out to be the microbiome case, she also recommends further research into potential ecological effects
 
-Thoughts: I really hope it’s not the pocket dimension decontamination procedures that are failing, but on the flipside if they’re being brought in via time traveler microbiomes, it’s unlikely we’ll be able to eliminate or prevent the introduction of out-of-time strains. So that might actually be worse? But pretty concerning news all around.
+Thoughts: I really hope it’s not the pocket dimension decontamination procedures that are failing, but on the flipside if they’re being brought in via time traveler microbiomes, it’s unlikely we’ll be able to eliminate or prevent the introduction of time-displaced strains. So that might actually be worse? But pretty concerning news all around.
 
 Next was Cheese’s analysis of the Chrono-Co mining reports, but I was up late last night and maaaaay have dozed off part way. Fer’ll be publishing an editorial version of it soon though, to be put up on Chrono-Co’s website alongside the mining report, so you can go find it there if you’re curious. I don’t think fer mentioned anything out of the ordinary, though.
 
