@@ -6,7 +6,7 @@ plugins: [jekyll-paginate]
 baseurl: "/sidney-blog"
 url: "https://selene-huang.github.io"
 
-paginate: 5
+paginate: 4
 paginate_path: "/:num/"
 comments: true
 

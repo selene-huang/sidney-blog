@@ -4,11 +4,13 @@ layout: default
 <div class="card">
     <div class="card-header">
         <div class="row">
-        <div class="card-header-left"><h3>
-            {{ page.date | date: '%a %B %d, ' }}
-            {{ page.date | date: '%Y' | plus: 322 }}
-        </h3></div>
-        <div class="card-header-icon"><a href="{{ '/' | relative_url }}" class="card-header-icon-font"><h3>⏎</h3></a></div>
+            <div class="card-header-left"><h3>
+                {{ page.date | date: '%a %B %d, ' }}
+                {{ page.date | date: '%Y' | plus: 322 }}
+            </h3></div>
+            <div class="card-header-linked-icon">
+                <a href="{{ '/' | relative_url }}"><h3>⏎</h3></a>
+            </div>
         </div>
     </div>
 
@@ -22,5 +24,14 @@ layout: default
         </div>
 
         {{ content }}
+
+        <div class="flex-container">
+            <div class="dingbat-formatter centered-text"><h3>
+                ────── 🙘❀🙚 ──────
+            </h3></div>
+            <div class="better-icon-formatter">
+                <a href="{{ page.link | relative_url }}"><h3>⇧</h3></a>
+            </div>
+        </div>
     </div>
 </div>

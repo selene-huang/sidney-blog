@@ -153,22 +153,28 @@ a:hover {
     padding-top: 4px;
 }
 
-.card-header-icon {
+.card-header-icon, .card-header-linked-icon {
     float: right;
     border: 1px solid var(--border);
     margin-left: 5px;
     padding: 0px 4px;
 }
 
-.card-header-icon > a:hover {
+.card-header-icon:hover {
     float: right;
-    background: var(--accent);
-    margin: 0px -4px;
+    border: 1px solid var(--border);
+    color: var(--white);
+    background-color: var(--light-gray);
+    margin-left: 5px;
     padding: 0px 4px;
 }
 
-.card-header-icon-font {
-    color: var(--border);
+.card-header-linked-icon:hover {
+    float: right;
+    border: 1px solid var(--border);
+    background: var(--accent);
+    margin-left: 5px;
+    padding: 0px 4px;
 }
 
 .card-button-left {
@@ -216,6 +222,27 @@ a:hover {
     content: "";
     display: table;
     clear: both;
+}
+
+/* Post footer */
+.dingbat-formatter {
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.better-icon-formatter {
+    justify-content: flex-end;
+    border: 1px solid var(--border);
+    margin-left: 5px;
+    padding: 0px 4px;
+}
+
+.better-icon-formatter:hover {
+    justify-content: flex-end;
+    border: 1px solid var(--border);
+    background-color: var(--accent);
+    margin-left: 5px;
+    padding: 0px 4px;
 }
 
 /* Footer */

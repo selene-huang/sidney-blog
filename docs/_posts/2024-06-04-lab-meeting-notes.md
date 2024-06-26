@@ -1,5 +1,5 @@
 ---
-title: "June 2346 Lab Meeting Notes"
+title: "June Lab Meeting Notes"
 layout: post
 tags: ["lab meeting notes"]
 ---

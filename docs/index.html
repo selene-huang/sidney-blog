@@ -6,9 +6,13 @@ title: Home
   <div class="card">
     <div class="card-header">
       <div class="row">
-        <div class="card-header-left"><h3>{{ post.title | upcase }}</h3></div>
-        <div class="card-header-icon"><a href="{{ post.url | relative_url }}">
-          <h3 class="card-header-icon-font">✮</h3>
+        <div class="card-header-left"><h3>
+          {% assign day_str = post.date | date: '/%m/%d ' %}
+          {{ post.date | date: '%Y' | plus: 322 | append: day_str }}
+          {{ post.title | upcase }}
+        </h3></div>
+        <div class="card-header-linked-icon"><a href="{{ post.url | relative_url }}">
+          <h3>✮</h3>
         </a></div>
       </div>
     </div>

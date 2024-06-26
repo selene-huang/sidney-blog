@@ -11,7 +11,7 @@ Current focuses:
 
 - Investigating the endangered plant genus _Rutilan_
 - Cataloging historical & time-travel based evidence for extinct species _Subdolus_ n. sp. C
-- Collecting soil samples for research on modern-day microbials’ potential to affect timelines
+- Collecting soil samples for research on time-displaced microbes
 - Prototyping & testing of new sampling technologies
 
 I was previously a graduate student in McLaughlin University’s chrono-biological research group, where I studied time travel’s effects on developing organisms under the guidance of Professor Alexis Nettleship. The journals we published to at the time were not paywalled, but I have recently received several complaints that they are now charging subscription access, so! If you’d like a copy of those papers, just email me.

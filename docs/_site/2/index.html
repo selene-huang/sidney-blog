@@ -3,11 +3,43 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/sidney-blog/assets/css/styles.css">
+    <title>Home</title>
   </head>
   <body>
-    {% include navbar.html %}
+    <link rel="stylesheet" href="/sidney-blog/assets/css/navbar.css">
+<div class="righttab">
+    <ul class="nav-tabs" role="tablist">
+        
+            <li class="nav-item" *ngIf="rmView || patientsCase || expertView">
+                <a 
+                    data-toggle="tab" href="/sidney-blog/" role="tab"
+                    
+                    class="nav-link"
+                    
+                >
+                    <span class="slanted-text">Home</span>
+                </a>
+            </li>
+        
+            <li class="nav-item" *ngIf="rmView || patientsCase || expertView">
+                <a 
+                    data-toggle="tab" href="/sidney-blog/about.html" role="tab"
+                    
+                    class="nav-link"
+                    
+                >
+                    <span class="slanted-text">About</span>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+<div class="banner">
+    <div class="inner-banner">
+        ❧ SIDNEY'S RESEARCH BLOG ☙
+    </div>
+</div>
 
     <div class="row">
       <div class="leftcolumn">
@@ -33,7 +65,7 @@
         </div>
 
         <div class="row">
-          <a href="{{ '/disclaimer' | relative_url }}" class="centered-text">
+          <a href="/sidney-blog/disclaimer" class="centered-text">
             <div class="card-button-left">
               <div class="sidebar-card">
                 <h3>DISCLAIMER</h3>
@@ -89,7 +121,45 @@
       </div>
         
       <div class="rightcolumn">
-        {{ content }}
+        
+  <div class="card">
+    <div class="card-header">
+      <div class="row">
+        <div class="card-header-left"><h3>
+          
+          2346/06/04 
+          JUNE LAB MEETING NOTES
+        </h3></div>
+        <div class="card-header-linked-icon"><a href="/sidney-blog/2024/06/04/lab-meeting-notes.html">
+          <h3>✮</h3>
+        </a></div>
+      </div>
+    </div>
+    
+    <div class="card-body">
+      <p><p>It’s the first Tuesday of the month, so you know what that means: the biology division’s public lab meeting! On the agenda this week we had a presentation from Stuart Stillwell on timeline extinction counts as a measure of evolutionary fitness of a species; Marissa Waywater on microbial activity in various lunar soil samples; Wisconsin Cheese on Chrono-Co’s second quarter mining impact report; and, last but not least, a presentation from yours truly about field usage of my human-animal communication device.</p>
+</p>
+      
+      <p><a href="/sidney-blog/2024/06/04/lab-meeting-notes.html">>>> Read More</a></p>
+      
+    </div>
+  </div>
+
+
+<!-- Pagination links -->
+<div class="card centered-text">
+  
+    <a href="/sidney-blog/">
+      &lt;&lt; Prev
+    </a>
+  
+  <span>
+    ⦾ Page 2 of 2 ⦾
+  </span>
+  
+    <span class="gray-text">Next &gt;&gt;</span>
+  
+</div>
       </div>
     </div>
     
