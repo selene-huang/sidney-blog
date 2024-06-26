@@ -11,7 +11,7 @@ We kicked off the meeting with some opening remarks from Tuhorn, which you proba
 Next up was Stuart’s presentation. The key points:
 
 - This paper was inspired by a recent paper on 500 B.C. extinction events (mine), whose narrow focus on a specific time period renders the results ungeneralizable (I will render _him_ ungeneralizable)
-- He compiled all field reports from the watcher’s archives and created a database of all recorded extinction events in alternate timelines, then added in known extinction events from the past century in our current timeline
+- He compiled all field reports from the Archives and created a database of all recorded extinction events in alternate timelines, then added in known extinction events from the past century in our current timeline
 - He finds that 96.3% of species who are extinct in this timeline have also gone extinct in alternate timelines, and 87% of them within ten years of each other
 - He proposes, with some refinements, using survivability within timelines as an overall indicator of evolutionary fitness of a species
 
@@ -24,7 +24,7 @@ Next, Marissa’s presentation:
   - However, she notes that it’s unlikely the moon will ever be able to support more than a few strains of extremophile bacteria
   - Even if the bacteria manage to establish a livable atmosphere again for other organisms, it will likely be stripped away again by solar winds
 - Odd strains of bacteria are being found primarily in the Watchtower’s sewage systems
-  - Based on preliminary analysis, they’re suspected to be past or future strains of bacteria, brought into Watchtower time by various agents via their gut microbiome, but it could also be a failure in the pocket watch decontamination mechanism
+  - Based on preliminary analysis, they’re suspected to be past or future strains of bacteria, brought into Watchtower time by various agents via their gut microbiome, but it could also be a failure in the pocketwatch decontamination mechanism
   - Stressed the need for more research
   - If it turns out to be the microbiome case, she also recommends further research into potential ecological effects
 
