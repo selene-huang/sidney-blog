@@ -189,6 +189,10 @@ a:hover {
     flex-direction: row;
 }
 
+.no-top-margin {
+    margin-top: -20px;
+}
+
 .tag {
     font-size: smaller;
     background: var(--secondary);
