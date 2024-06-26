@@ -1,6 +1,7 @@
 ---
 title: "Watchtower Wildlife #1: The American Crow"
 layout: post
+tags: [birds, "watchtower wildlife"]
 ---
 
 I have noticed recently that denizens of the Watchtower tend to overlook the non-human aspects of our ecosystem here on the moon. It’s a shame that the hard work of our ecologists, biologists, botanists, and other researchers is so often overlooked; every species here on the moon was carefully studied and selected for introduction based on carefully constructed ecological webs. So I’ve decided to start a series about the wildlife and fauna found around the Watchtower. I hope others may learn to appreciate the beauty of the intricate systems and wonderful organisms that surround us!
